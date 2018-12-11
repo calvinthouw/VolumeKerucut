@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="124dp"
+        android:text="Jari - Jari"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/txtJari"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="96dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtJari"
+        android:layout_alignStart="@+id/txtJari"
+        android:ems="8"
+        android:hint="Masukan Jari-Jari"
+        android:id="@+id/jj"
+        android:layout_alignLeft="@+id/txtJari" />
+
+    <TextView
+        android:id="@+id/txtTinggi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtJari"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="220dp"
+        android:layout_marginBottom="10dp"
+        android:text="Tinggi"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_alignLeft="@+id/txtJari" />
+
+    <EditText
+        android:id="@+id/tinggi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTinggi"
+        android:layout_alignStart="@+id/txtTinggi"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-5dp"
+        android:ems="8"
+        android:hint="Masukan Tinggi"
+        android:layout_alignLeft="@+id/txtTinggi"
+        android:layout_marginLeft="0dp" />
+
+    <Button
+        android:id="@+id/hitung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="94dp"
+        android:layout_marginLeft="94dp"
+        android:layout_marginBottom="144dp"
+        android:text="Hitung"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="67dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="120dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginBottom="151dp"
+        android:text="Hasil"
+        android:textSize="25dp" />
+
+</RelativeLayout>
